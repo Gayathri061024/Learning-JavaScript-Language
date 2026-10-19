@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Variables-DataTypes-Operators</title>
+    <link rel="stylesheet" type="text/css" href="xyz.css">
+</head>
+
+<body>
+
+    <div class="title">
+        <h1>Geometry Calculator Web Page</h1>
+    </div>
+
+
+    <div class="container">
+        <form id="shapeForm">
+
+            <label for="shapes" id="selection">Select a Shape :</label>
+            <select id="shapes">
+                <option value=""> --- Select Shape ---</option>
+                <option value="rectangle">Rectangle</option>
+                <option value="circle">Circle</option>
+                <!-- <option value="sq">Square</option>
+                <option value="tri">Triangle</option> -->
+            </select>
+
+            <div id="rectangleFields" class="fields">
+                <div class="input-group"><label for="length">Enter Length:</label>
+                <input type="number" id="length" placeholder="Enter length"></div>
+
+                <div class="input-group"><label for="width">Enter Width:</label>
+                <input type="number" id="width" placeholder="Enter width"></div>
+            </div>
+
+            <div id="circleFields" class="fields">
+                <label for="radius">Enter Radius:</label>
+                <input type="number" id="radius" placeholder="Enter radius">
+            </div>
+
+        </form>
+
+        </div class="button-container">
+        <button type="button" id="btn"> Calculate Area</button>
+        </div>
+
+        <div class="result" id="result"></div>
+        </div>
+        <hr>
+        <div class="typeComparsionTest">
+
+        <h3>Type & Comparsion Tester</h3>
+        <label for="value1">Enter value1 :</label>
+        <input type="number" id="value1" placeholder="Test Value1">
+        <label for="value2">Enter value2:</label>
+        <input type="number" id="value2" placeholder="Test Value2">
+
+        </div>
+        <button type="button" id="testBtn">Test Values</button>
+        <div id="testResult" class="result"></div>
+    </div>
+    <script src="index.js"></script>
+
+
+</body>
+
+</html>

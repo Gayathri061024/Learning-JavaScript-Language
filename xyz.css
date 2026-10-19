@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.title {
+    padding: 50px;
+}
+
+#selection {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#shapes {
+    width: 300px;
+    height: 40px;
+    padding: 8px;
+    font-size: medium;
+}
+
+.fields {
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+.fields input{
+    padding: 8px;
+}
+.fields {
+    padding-right: 5px;
+}
+#rectangleFields {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+.input-group {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.input-group label {
+    text-align: right;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+#btn {
+    
+    margin: 25px auto;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+
+.result {
+    margin-top: 15px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+
+.typeComparsionTest h3{
+    margin: 30px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.typeComparsionTest label{
+   text-align: right;
+}
+.typeComparsionTest input{
+    padding: 8px;
+}
+#testBtn{
+    display: flex;
+    justify-content: center;
+     margin: 25px auto;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+#result {
+    margin-top: 15px;
+    padding: 20px;
+}
