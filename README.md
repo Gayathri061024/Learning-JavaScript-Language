@@ -30,11 +30,7 @@ The Geometry Calculator Web Page is developed using HTML, CSS, and JavaScript. T
 4. JavaScript validates the inputs and calculates the area.
 5. The calculated result and shape details are displayed on the webpage.
 6. In the Type and Comparison Tester, the user enters two values to explore their types and comparison behavior.
-![alt text](<Screenshot 2026-10-18 191847.png>)
-![alt text](<Screenshot 2026-10-18 191919.png>)
-![alt text](<Screenshot 2026-10-18 192000.png>)
-![alt text](<Screenshot 2026-10-18 192053.png>)
-![alt text](<Screenshot 2026-10-18 192152.png>)
+
 
 ## Conclusion
 The project demonstrates the practical application of basic JavaScript concepts through a Geometry Calculator and a Type and Comparison Tester. It helped me strengthen my understanding of webpage development and JavaScript fundamentals.
